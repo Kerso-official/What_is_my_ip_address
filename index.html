@@ -40,6 +40,7 @@
             </div>
             <div class="window-body has-space">
               <h4 id="ip_show"><span class="loader animate" aria-label="Processing your request"></span></h4>
+              <button onclick="github()"><img src="https://github.githubassets.com/favicons/favicon.svg" alt="github logo" /> Github</button>
               <p>Copyright &copy; 2024 <a href="https://kerso.dev">kerso.dev</a></p>
             </div>
           </div>
@@ -58,6 +59,10 @@
                     console.error('Error fetching IP address:', error);
                 });
         });
+
+        function github() {
+            window.location.href = "https://github.com/Kerso-official/What_is_my_ip_address"
+        }
     </script>
 </body>
 </html>
